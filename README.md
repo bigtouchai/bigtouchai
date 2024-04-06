@@ -1,39 +1,61 @@
-### Hi there 👋
-相关教程和图文请点wiki~
-[WiKi教程图文合集！！点我~](https://github.com/bigtouchai/chaiwiki/wiki)
+自建Vless WS TLS节点，并开启CDN提升节点防护，完整教程！
+xiaochaib edited this page on Sep 11, 2023 · 12 revisions
+请配合视频教程食用：https://youtu.be/eqYL6P6T9sU
 
-Welcome to the chaiwiki wiki!
+VPS服务器购买
+自建节点需要有一台VPS服务器，如想月付，可使用Vultr家的VPS服务器，Vultr官网，2014年成立，性价比高，目前月付3.5刀/月，可随时免费更换IP、不用担心IP不够用，机器、网络运行稳定性佳，并且提供超过32个机房可选，支持支付宝。
 
-# 教程目录索引
-[01、新手搭建节点教程：x-ui部署V2Ray、trojan等](https://github.com/xiaochaib/chaiwiki/wiki/%E6%96%B0%E6%89%8B%E6%90%AD%E5%BB%BA%E8%8A%82%E7%82%B9%E6%95%99%E7%A8%8B%EF%BC%81X-ui%E9%9D%A2%E6%9D%BF%E9%83%A8%E7%BD%B2V2Ray%E3%80%81Xray%E3%80%81Trojan%E3%80%81SS%E7%AD%89)<br />
-[02、最稳机场：搬瓦工Just My Socks使用教程](https://github.com/bigtouchai/chaiwiki/wiki/%E6%9C%80%E7%A8%B3%E6%9C%BA%E5%9C%BA%EF%BC%9A%E6%90%AC%E7%93%A6%E5%B7%A5Just-My-Socks-%E6%9C%BA%E5%9C%BA%E5%A6%82%E4%BD%95%E8%B4%AD%E4%B9%B0%E4%BD%BF%E7%94%A8%E3%80%81%E5%A6%82%E4%BD%95%E9%85%8D%E7%BD%AE%E5%AE%A2%E6%88%B7%E7%AB%AF)<br />
-[03、自建trojan节点、并搭建伪装站点教程](https://github.com/xiaochaib/chaiwiki/wiki/%E8%87%AA%E5%BB%BATrojan%E8%8A%82%E7%82%B9%E5%B9%B6%E6%90%AD%E5%BB%BA%E4%BC%AA%E8%A3%85%E7%BD%91%E7%AB%99%EF%BC%8C%E6%8F%90%E5%8D%87%E4%B8%8A%E7%BD%91%E8%8A%82%E7%82%B9%E5%AE%89%E5%85%A8%E6%80%A7%EF%BC%81)<br />
-[04、部署V2Ray（Vless+ws+tls）节点教程](https://github.com/xiaochaib/chaiwiki/wiki/%E6%96%B0%E6%89%8B%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2V2Ray%E8%8A%82%E7%82%B9%E3%80%81%E4%BD%BF%E7%94%A8%E6%9C%80%E5%AE%89%E5%85%A8%E7%9A%84%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E5%8D%8F%E8%AE%AE%EF%BC%81)<br />
-[05、部署Xray（vision+reality）节点教程](https://github.com/xiaochaib/chaiwiki/wiki/%E4%B8%80%E9%94%AE%E6%90%AD%E5%BB%BAV2Ray%EF%BC%88XRay%EF%BC%89--Vision-REALITY%E5%8D%8F%E8%AE%AE%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E8%8A%82%E7%82%B9%EF%BC%81)<br />
-[06、部署Vless WS+TLS并开启CDN防护教程](https://github.com/xiaochaib/chaiwiki/wiki/%E8%87%AA%E5%BB%BAVless-WS-TLS%E8%8A%82%E7%82%B9%EF%BC%8C%E5%B9%B6%E5%BC%80%E5%90%AFCDN%E6%8F%90%E5%8D%87%E8%8A%82%E7%82%B9%E9%98%B2%E6%8A%A4%EF%BC%8C%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B%EF%BC%81)<br />
-[07、苹果MacBook搭建节点零基础教程](https://github.com/xiaochaib/chaiwiki/wiki/%E8%8B%B9%E6%9E%9CMacBook%E8%87%AA%E5%BB%BA%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E8%8A%82%E7%82%B9%E5%85%A8%E6%95%99%E7%A8%8B%E3%80%81%E5%AE%9E%E7%8E%B0Macbook%E3%80%81iPad%E3%80%81iPhone%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91)<br />
-[08、无限免费换IP！Vultr VPS自建节点教程](https://github.com/xiaochaib/chaiwiki/wiki/%E6%97%A0%E9%99%90%E5%85%8D%E8%B4%B9%E6%8D%A2IP%EF%BC%81Vultr-VPS%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%87%AA%E5%BB%BA%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E8%8A%82%E7%82%B9%E6%95%99%E7%A8%8B%EF%BC%8C%E5%AE%9E%E7%8E%B0%E5%A4%9A%E7%94%A8%E6%88%B7%E3%80%81%E5%A4%9A%E8%8A%82%E7%82%B9%E5%90%88%E7%A7%9F%E3%80%81%E8%AE%A9%E6%89%80%E6%9C%89%E8%AE%BE%E5%A4%87%E5%AE%9E%E7%8E%B0%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91)<br />
-[09、搬瓦工VPS搭建多节点、多用户合租节点教程](https://github.com/xiaochaib/chaiwiki/wiki/%E6%90%AC%E7%93%A6%E5%B7%A5VPS%E6%90%AD%E5%BB%BAx%E2%80%90ui%E9%9D%A2%E6%9D%BF%E5%AE%9E%E7%8E%B0%E5%A4%9A%E8%8A%82%E7%82%B9%E3%80%81%E5%A4%9A%E7%94%A8%E6%88%B7%E5%90%88%E7%A7%9F%E6%96%B9%E6%A1%88%EF%BC%8C%E8%87%AA%E5%BB%BAV2Ray%E3%80%81vless%E3%80%81vmess%E3%80%81reality%E8%8A%82%E7%82%B9%E6%95%99%E7%A8%8B)<br />
-[10、让垃圾VPS速度飙升、Hysteria节点部署教程](https://github.com/xiaochaib/chaiwiki/wiki/%E8%AE%A9%E5%9E%83%E5%9C%BEVPS%E4%B8%8A%E7%BD%91%E9%80%9F%E5%BA%A6%E9%A3%99%E5%8D%87%EF%BC%81Hysteria%EF%BC%88%E6%AD%87%E6%96%AF%E5%BA%95%E9%87%8C%EF%BC%89%E8%8A%82%E7%82%B9%E9%83%A8%E7%BD%B2%E3%80%81%E4%B8%8A%E6%89%8B%E3%80%81%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B%EF%BC%81)<br />
+如果追求极致速度，也可考虑使用搬瓦工VPS。搬瓦工VPS官网，以下是推荐用来自建节点的机房，可点链接直达。
+搬瓦工VPS订购、部署机器、服务器登录信息获取指引！
 
-# 其它索引
-[VPS开放端口教程](https://github.com/xiaochaib/chaiwiki/wiki/VPS%E5%BC%80%E6%94%BE%E7%AB%AF%E5%8F%A3%E5%B8%B8%E8%A7%84%E6%96%B9%E6%B3%95%EF%BC%81)<br />
+线路名称	处理器	内存大小	硬盘容量	带宽	流量	价格	链接
+CN2	1 核	1024 MB	20 GB	1 G	1000GB / 月	$49.99 / 年	购买
+CN2 GIA	2 核	1 GB	20 GB	2.5 G	1000GB / 月	$49.99 / 季	购买
+香港	2 核	2048 MB	40 GB	1 G	500GB / 月	$89.99 / 月	购买对于绝大多数用户来说，CN2线路已经满足；非常追求超极致速度、钱包厚的朋友可以选择CN2 GIA或香港线路
+如果跳转到购买链接提示：Out of Stock说明没库存了，香港机一般很紧俏
+搬瓦工优惠码：**BWHNCXNVXV**
+如果真的不想自建，想用机场，那么我推荐你使用搬瓦工官方JMS机场，非常稳定、不跑路！
+搬瓦工JMS机场使用图文指引！点我~
 
+域名购买、托管到CloudFlare
+域名注册、购买，推荐使用namesilo，免费的whois隐私保护！
+NameSilo官网（域名）：namesilo官网
+PING工具：ping工具（检测解析域名是否生效）
+CloudFlare(套CDN)：CF官网）
 
+# SSH连接工具
+任选其中一个即可
+FinalShell(推荐、全平台):FinalShell下载
+MobaXterm:MobaXterm官网
 
+安装V2Ray
+1、必要更新操作(Debian/Ubuntu)
+apt update -y && apt install -y curl socat wget
+**注意：**如果是centos系统，则分别运行yum update -y和yum install -y curl socat wget
 
+可选操作：部分VPS服务器需要开放端口（搬瓦工已默认开放所有端口,所以此步不需要）
+一些服务器的端口需要手动开放，像Vultr，需要安装防火墙（CentOS运行yum install firewalld安装）
+请参考此篇开放端口:VPS开放端口
 
-<!--
-**bigtouchai/bigtouchai** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+正式安装V2Ray(使用233Boy大佬的一键脚本)
+系统支持：Ubuntu，Debian，CentOS，推荐使用 Ubuntu，谨慎使用 CentOS，脚本可能无法正常运行！
+执行如下命令：
 
-Here are some ideas to get you started:
+bash <(wget -qO- -o- https://git.io/v2ray.sh)
+管理面板
+安装完成后，输入 v2ray 就能看到管理面板，如下图片所示 image
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+V2Ray 脚本管理面板 提示，如果你不想执行任何功能，直接按 Enter 回车退出即可。
+
+BBR加速
+四合一 BBR Plus / 原版BBR / 魔改BBR一键脚本（Centos 7, Debian 8/9, Ubuntu 16/18 测试通过）
+
+wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+客户端下载
+V2Ray-windows客户端：v2rayN下载
+安卓：V2RayNG
+苹果MAC OS：V2RayU下载
+IOS：App Store中，登录非国区账号，安装Shadowrocket小火箭（推荐，协议支持全面、便宜）
+不管是iPad平板还是iPhone手机，比较推荐的科学上网软件必定是：Shadowrocket，但是需要注册一个非国区或美区账号才能进行购买，目前是2.99美刀约20块人民币，注册美区账号和充值购买也非常简单，请参考以下两篇文章。
+如何注册美区Apple ID:https://zhuanlan.zhihu.com/p/635054054
+美区账号如何充值：https://zhuanlan.zhihu.com/p/636121931
